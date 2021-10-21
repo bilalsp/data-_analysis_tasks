@@ -1,0 +1,81 @@
+Récupérer les données INSEE à la commune :
+https://www.insee.fr/fr/statistiques?taille=100&debut=0&theme=1&categorie=3&geo=COMPRD-1
+
+A] Thème Démographie / Evolution et structure de la population / Population selon le sexe et l'âge quinquennal de 1968 à 2017  (onglet COM_2017 uniquement)
+
+B] Thème Revenus – Niveaux de vie – Pouvoir d'achat / Structure et distribution des revenus, inégalité des niveaux de vie en 2018 (fichier Base niveau communes en 2018, FILO2018_DEC_COM.xlsx, onglet ENSEMBLE uniquement)
+
+L'identifiant unique d'une commune est la concaténation des champs Département en géographie courante et Commune en géographie courante (DR+CR)
+
+Contraintes techniques : 
+	* utiliser numpy, ne pas utiliser pandas
+	* code source .py uniquement, pas de notebook jupyter
+
+
+Exercices :
+-----------
+
+1) graphiques simples - fichier A
+
+Produire les graphiques suivants :
+	* une pyramide des âges sur la France en 2017
+	* histogramme de fréquence du nombre d'habitants, sur l'ensemble des communes (total tous âges)
+	
+2) points singuliers - fichier A
+
+Sur la tranche d'âge 15/24, 
+	* calculer le pourcentage des 15/24 ans pour chacune des communes
+	* afficher le nombre moyen des 15/24 et l'écart type
+	* afficher le pourcentage moyen des 15/24 sur la France
+	* trouver les communes ayant une valeur extrême du pourcentage des 15/24 (extrême haut et bas) et indiquer leur nom, code insee, pourcentage 15/24, population
+
+3) analyse bi-variée - fichiers A et B
+
+Produire la régression linéaire 2D entre le pourcentage des 15/24 ans et la médiane de revenus déclarés, quelles conclusions ?
+
+4) clustering, analyse et probabilité
+
+Sur une donnée de votre choix (maxi 5Mo) effectuez un clustering qui a du sens afin d'analyser une donnée multi-dimensionnelle
+
+
+
+
+Retrieve INSEE data from the municipality:
+https://www.insee.fr/fr/statistiques?taille=100&debut=0&theme=1&categorie=3&geo=COMPRD-1
+
+A] Theme Demography / Evolution and structure of the population / Population by sex and quinquennial age from 1968 to 2017 (COM_2017 tab only)
+
+B] Income theme - Living standards - Purchasing power / Structure and distribution of income, inequality in living standards in 2018 (Base level file municipalities in 2018, FILO2018_DEC_COM.xlsx, ENSEMBLE tab only)
+
+The unique identifier of a municipality is the concatenation of the fields Department in current geography and Municipality in current geography (DR + CR)
+
+Technical constraints :
+* use numpy, don't use pandas
+* .py source code only, no jupyter notebook
+
+
+Exercises:
+-----------
+
+1) simple graphics - file A
+
+Produce the following graphics:
+* an age pyramid for France in 2017
+* frequency histogram of the number of inhabitants, across all municipalities (total all ages)
+
+2) singular points - file A
+
+For the 15/24 age group,
+* calculate the percentage of 15/24 year olds for each municipality
+* display the average number of 15/24 and the standard deviation
+* display the average percentage of 15/24 in France
+* find the municipalities with an extreme value of the percentage of 15/24 (extreme high and low) and indicate their name, insee code, percentage 15/24, population
+
+3) bivariate analysis - files A and B
+
+Produce the 2D linear regression between the percentage of 15/24 year olds and the median declared income, what conclusions?
+
+4) clustering, analysis and probability
+
+On a data of your choice (max 5MB) carry out a clustering which makes sense in order to analyze a multi-dimensional data
+Dataset: https://www.kaggle.com/akram24/mall-customers

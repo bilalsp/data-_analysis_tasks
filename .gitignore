@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Big Dataset
+data/FILO2018_DEC_COM.xls
+data/pop-sexe-age-quinquennal6817.xls
+
+# Environments
+venv/
+.venv/
+
+# output file
+out.txt
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+.eggs/
+lib/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
