@@ -10,10 +10,15 @@ This repository contains four basic tasks of Data Analysis and Machine Learning.
 
 ## Description
 There are following four warmup tasks of Data Analysis and Machine Learning in this repository:
+
 Task1: Visualization
+
 Task2: Univariate Analysis
+
 Task3: Bivariate Analysis
+
 Task4: Cluster Analysis
+
 Details description is available in [testdev-ML.txt](testdev-ML.txt).
 
 ## Usage
